@@ -3,7 +3,7 @@
 
 ## Justifications
 
-### (1) Processor [[JsonToXml.java]]
+### Processor JsonToXml.java
 
 Depuis que `camel-quarkus` ne porte plus le projet AtlasMap, il n'est plus possible d'utiliser les transformations JSON vers XML proposées par ce dernier.
 De façon générale, il faut remplacer de simple processus en une transormation double :
@@ -51,7 +51,7 @@ Ici, `<elements>` était la racine de notre JSON. Or, le XML obtenu possède plu
 
 Le tout sans configuration supplémentaire. En effet, le tableau se nomme "elements" avec un "s". Le script va simplement retirer le 's' du nom du parent pour nommer les nœuds XML enfants.
 
-Quelques argument permettent tout de même de configurer un peu plus ce processor, notamment en permettant de surcharger le nom des enfants des tableaux ou des objets. Tout est détaillé dans les commentaires du fichier.
+Quelques argument permettent tout de même de configurer un peu plus ce processor, notamment en permettant de surcharger le nom des enfants des tableaux ou des objets. Tout est détaillé dans les commentaires du fichier [JsonToXml.java](code/JsonToXml.java).
 
 ### (2) RouteBuilder
 
