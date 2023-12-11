@@ -1,9 +1,9 @@
 # Exemples de code
 ## De l'article [Upgrade Camel-K 1.10 en 2.1](https://www.middleware-solutions.fr/?p=1542)
 
-## Justifications
+## Justifications
 
-### Processor [[JsonToXml.java]]
+### (1) Processor [[JsonToXml.java]]
 
 Depuis que `camel-quarkus` ne porte plus le projet AtlasMap, il n'est plus possible d'utiliser les transformations JSON vers XML proposées par ce dernier.
 De façon générale, il faut remplacer de simple processus en une transormation double :
@@ -53,7 +53,7 @@ Le tout sans configuration supplémentaire. En effet, le tableau se nomme "eleme
 
 Quelques argument permettent tout de même de configurer un peu plus ce processor, notamment en permettant de surcharger le nom des enfants des tableaux ou des objets. Tout est détaillé dans les commentaires du fichier.
 
-### RouteBuilder
+### (2) RouteBuilder
 
 TODO
 
