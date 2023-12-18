@@ -2,6 +2,6 @@
 
 Ce repository contient les éléments suivants:
 
-- Code utilisé pour la transformation JSON. [lien]
-- Comparaison de la liste des composants Camel-Quarkus. [lien]
-- Comparaison de la liste des kamelets Camel. [lien]
+- Code utilisé pour la transformation JSON. [lien](./code/README.md)
+- Comparaison de la liste des composants Camel-Quarkus. [lien](./catalog-comparaison/README.md)
+- Comparaison de la liste des kamelets Camel. [lien](./kamelets-comparaison/README.md)
