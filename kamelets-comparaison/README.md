@@ -1,23 +1,23 @@
 # Différences de Kamelets
 
-Entre la version 3.20.x et la 4.0.0.
+Entre les versions 3.20.x et la 4.0.0 de camel-kamelets.
 
-## Kamelets ajoutés
+## Kamelets ajoutés (12)
 
 - azure-cosmosdb-sink
 - azure-storage-datalake-sink
 - azure-storage-datalake-source
+- data-type-action
+- graphql-sink
 - kafka-scram-sink
 - kafka-scram-source
 - opensearch-index-sink
 - opensearch-search-source
-- data-type-action
-- graphql-sink
 - resolve-pojo-schema-action
 - salesforce-composite-upsert-sink
 - set-kafka-key-action
 
-## Kamelets supprimés
+## Kamelets supprimés (8)
 
 - aws-ddb-experimental-sink
 - aws-s3-experimental-source
